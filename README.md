@@ -39,20 +39,20 @@ Finally, an example of data scraped can be seen here: [tax-decision.csv](./tax-d
 ### 🎲 Requirements (requisitos)
 
 To run the code, it is recommended to install the following Python Packaged:
-beautifulsoup4==4.9.3
-bs4==0.0.1
-certifi==2020.12.5
-chardet==4.0.0
-idna==2.10
-numpy==1.20.2
-pandas==1.2.4
-python-dateutil==2.8.1
-pytz==2021.1
-requests==2.25.1
-selenium==3.141.0
-six==1.15.0
-soupsieve==2.2.1
-urllib3==1.26.4
+- beautifulsoup4==4.9.3
+- bs4==0.0.1
+- certifi==2020.12.5
+- chardet==4.0.0
+- idna==2.10
+- numpy==1.20.2
+- pandas==1.2.4
+- python-dateutil==2.8.1
+- pytz==2021.1
+- requests==2.25.1
+- selenium==3.141.0
+- six==1.15.0
+- soupsieve==2.2.1
+- urllib3==1.26.4
 
 #### Running the codes (rodando os códigos)
 
