@@ -8,25 +8,15 @@
 ## ⚙️ Project demonstration (demontração do projeto)
 The algorithm scraps the public Tax Administrative Decisions from the Brazilian Higher Chamber of the Administrative Tax Appeals Council ("CSRF") website, and save them in a CSV file.
 
-<p align="center"> <img alt="example_of_data.JPG" title="example_of_data.JPG" src="./assets/example_of_data.JPG" width="800px">
+- Example of original data structure:
+<p align="center"> <img alt="example_of_origin_data.JPG" title="example_of_origin_data.JPG" src="./assets/example_of_origin_data.JPG" width="400px">
 
-On this project, using BeautifulSoup (BS) or Selenium packages, I developed four different scripts to scrap, so I would be able to compare their efficiency.
-The options available are:
+- Example of result:
+<p align="center"> <img alt="example_of_data.JPG" title="example_of_data.JPG" src="./assets/example_of_data.JPG" width="600px">
 
-<p align="center"> <img alt="options_of_scraping.JPG" title="options_of_scraping.JPG" src="./assets/options_of_scraping.JPG" width="500px">
+This project was developed using Selenium, as an instrument to open the Browser, navigate in the HTML DOM, and scrape the data.
 
-The result is interesting:
-* Running BS scraping row by row is more efficient than using BS scraping column by column;
-* Both are more efficient than using Selenium. In this case, running Selenium to scrap row by row is more efficient than using Selenium to scrap column by column.
-
-The runnig time for each option is shown bellow:
-
-- time_running_BS_by_row:  0:00:00.033499
-- time_running_BS_by_column:  0:00:00.059463
-- time_running_selenium_by_row:  0:00:49.721204
-- time_running_selenium_by_column:  0:00:53.147911
-
-Finally, an example of data scraped can be seen here: [rfb_data.csv](./rfb_data.csv)
+Finally, an example of data scraped can be seen here: [tax-decision.csv](./tax-decision.csv)
 
 ---
 	
@@ -61,8 +51,6 @@ selenium==3.141.0
 six==1.15.0
 soupsieve==2.2.1
 urllib3==1.26.4
-
-
 
 #### Running the codes (rodando os códigos)
 
