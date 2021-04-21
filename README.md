@@ -23,9 +23,10 @@ Finally, an example of data scraped can be seen here: [tax-decision.csv](./tax-d
 ## 💡 Knowledge acquired (conhecimentos adquiridos)
 
 - During this project, I learned:
-  - pending to be written;
-  - pending to be written; and
-  - pending to be written.
+  - to scrape dynamic pages, that changes their data and structures randomly;
+  - to apply Object Oriented Programming (OOP) to code reusable pieces of code blueprints; 
+  - about Xpath and its structure, using it to navigate in the HTML DOM; and
+  - the concepts of axis (relationship between nodes on DOM) to navigate the structure and get the data needed;ç
 
 ---
 
